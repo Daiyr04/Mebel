@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+.title-img{
+    margin-top: 15px;
+}
+.container{
+    width: 1078px;
+    margin: 0 auto;
+}
+.ul-4{
+    display: flex;
+    list-style: none;
+    margin-left: 25px;
+}
+.li-1{
+    margin-left: 25px;
+
+}
+.li-2{
+    margin-left: 25px;
+    
+}
+.li-3{
+    margin-left: 25px;
+    
+}
+.li-4{
+    margin-left: 25px;
+    
+}
+.li-5{
+    margin-left: 25px;
+    
+}
+.aku-2{
+    display: flex;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.aku-3{
+    display: flex;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+
+}
+.title-1{
+    display: flex;
+    background: #9DC82C;
+    height: 80px;
+    
+}
+.korzina {
+    margin-left: 25px;
+    margin-top: -4px;
+    margin-bottom: 10px;
+    background-color:  #9DC82C;
+    border-radius: 10px;
+    border: 1px solid #9DC82C;
+}
+.korzina img{
+    margin-bottom: 10px;
+    margin-left: -155px;
+}
+.korzina p{
+    margin-top: -32px;
+    margin-left: 10px;
+}
+.img-5{
+    margin-bottom: -4px;
+}
+
+
+.stul-1{
+    position: relative;
+    width: 40px;
+    margin: 10px;
+    margin-left: 200px ;
+    
+
+}
+.pishka-1{
+    margin-top: 30px;
+}
+.pishka-2{
+    margin-top: 15px;
+}
+.pishka-3{
+    margin-top: 30px;
+}
+.pishka-4{
+    color: #9DC82C;
+    margin-top: 15px;
+}
+.pishka-5{
+    margin-top: 30px;
+}
+.pishka-6{
+    margin-top: 15px;
+}
+.pishka-7{
+    margin-top: 15px;
+}
+.pishka-8{
+    margin-top: 30px;
+}
+.pishka-9{
+    margin-top: 15px;
+}
+.pishka-10{
+    margin-top: 30px;
+}
+.pishka-11{
+    margin-top: 15px;
+}
+.pishka-12{
+    margin-top: 15px;
+}
+.pishka-13{
+    margin-top: 30px;
+}
+.pishka-14{
+    margin-top: 15px;
+}
+.pishka-15{
+    margin-top: 15px;
+}
+.pishka-16{
+    margin-top: 15px;
+    color: #FF434E;
+}
+.put-1{
+    margin: 0 130px;
+}
+
+.put-4{
+    margin: 0 130px;
+}
+.aku-4{
+width: 50px;
+}
+.button-4{
+    margin-left: 20px;
+    height: 40px;
+    padding: 0 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+.button-1{
+    position: static;
+    width: 100px;
+    margin-left: 105px;
+    margin-top: 20px;
+    /* margin: 80px; */
+    margin-bottom: 40px;
+    padding-top: 20px 0;
+    padding: 7px ; 
+    color: #fff;
+    background-color: #C1C1C1;
+    border-radius: 10px;
+    border: 1px solid #C1C1C1;
+}
+.aku-1{
+    margin-top: 25px;
+}
+.aku-4 .ashka{
+    position: sticky;
+    font-size: 12px;
+    width: 100px;
+    margin: 200px;
+    margin-top: -360px;  
+    padding: 20px 0;
+    margin-left: 160px;
+}
+.aku-4 .ashka-1{
+    position: sticky;
+    font-size: 12px;
+    width: 100px;
+    margin: 200px;
+    margin-top: -240px;  
+    padding: 100px 0;
+    margin-left: 160px;
+
+   
+}
+.put-1 .pishka-4{
+    border-bottom: 1px solid #9DC82C;
+    padding-bottom: 10px;
+    width: 145px;
+}
+.aku-4 .ashka-2{
+    position: sticky;
+    font-size: 12px;
+    width: 100px;
+    margin: 200px;
+    margin-top: -230px;  
+    padding: 20px 0;
+    margin-left: 160px;
+}
+.skidka{
+    margin-left: 100px;
+    width: 793px;
+    height: 49px;
+    top: 624px;
+    left: 242px;
+    border-radius: 10px;
+   background-color: #FF434E;
+   color: #fff;
+   border: 1px solid #FF434E;
+}
+.aku-4 .stul-1{
+    position: sticky;
+    margin: 80px;
+    padding-top: 15px;
+    margin-top: -800px;  
+    padding: 20px 0;
+    margin-left: 108px;
+}
+.aku-4 .stul-2{
+    position: sticky;
+    width: 40px;
+    margin: 200px;
+    padding-top: 15px;
+    margin-top: -300px;  
+    padding: 20px 0;
+    margin-left: 108px;
+}
+.aku-4 .stul-3{
+    position: sticky;
+    width: 40px;
+    margin: 80px;
+    padding-top: 15px;
+    margin-top: -100px;  
+    padding: 20px 0;
+    margin-left: 108px;
+}
+ .aku-4 .pishka-17{
+    position: sticky;
+    font-size: 12px;
+    width: 180px;
+    height: 7px;
+    /* top: 120px; */
+   margin-top: -200px;
+   margin-left: 120px;
+}
