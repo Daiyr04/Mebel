@@ -1,0 +1,126 @@
+.section-four{
+    margin-bottom: 40px;
+    /* background: #F9F9F9; */
+}
+.container {
+    width: 1078px;
+    margin: 0 auto;
+} 
+.section-four-text{
+    font-weight: 700;
+    font-size: 34px;
+    text-align: center;
+    margin: 20px 0;
+}
+.section-otzyv{
+    display: flex;
+    
+}
+.section-otzyv-blok{
+    box-shadow: 0 2px 3px grey;
+    width: 350px;
+    height: 310px;
+}
+.section-otzyv-blok1 {
+    box-shadow: 0 2px 3px grey;
+    margin-left: 100px;
+    width: 350px;
+    height: 310px;
+}
+.section-otzyv-blok h4{
+    font-weight: 600;
+    font-size: 15px;
+    position: relative;
+    top: -70px;
+    left: 75px;
+    padding-left: 10px;
+}
+.section-otzyv-blok1 h4{
+    font-weight: 600;
+    font-size: 15px;
+    position: relative;
+    top: -70px;
+    left: 75px;
+    padding-left: 10px;
+}
+.section-otzyv-blok p{
+    color:#000000 65%;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: -10px;
+    padding-left: 10px;
+}
+.section-otzyv-blok1 p{
+    color:#000000 65%;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: -10px;
+    padding-left: 10px;
+}
+.section-otzyv-blok img{
+    padding: 10px 0 0 10px;
+}
+.section-otzyv-blok1 img{
+    padding: 10px 0 0 10px;
+}
+.section-otzyv-blok span{
+    margin-left: 230px;
+    font-weight: 300;
+    font-size: 13px;
+    color: #000000 65%;
+}
+.section-otzyv-blok1 span{
+    margin-left: 230px;
+    font-weight: 300;
+    font-size: 13px;
+    color: #000000 65%;
+}
+.iconka-svg{
+    position: relative;
+    top: -155px;
+    left: 160px;
+}
+.section-five-text{
+    margin-bottom: 70px;
+}
+.section-five-text h3{
+    font-weight: 800;
+    font-size: 24px;
+    color: #000000;
+}   
+.section-five-text p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000 60%;
+}
+.section-five-icons{
+    display: flex;
+    margin-bottom: 30px;
+}
+.icons-five{
+    width: 300px;
+    height: 250px;
+    box-shadow: 0 1px 3px 0 grey;
+    margin-left: 50px;
+}
+.icons-five img{
+    padding-left: 100px;
+    padding-top: 80px;
+}
+.icons-five1 img{
+    padding-left: 100px;
+    padding-top: 80px;
+}
+.icons-five p{
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.icons-five1 p{
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.icons-five1{
+    width: 300px;
+    height: 250px;
+    box-shadow: 0 1px 3px 0 grey;
+}
