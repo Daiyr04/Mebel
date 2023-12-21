@@ -1,31 +1,27 @@
-// let product = [
-//     {
-//         id: 1,
-//         price: 11600,
-//         title: "table",
-//         fon: "add",
-//     },
-//     {
-//         id: 2,
-//         price: 11600,
-//         title: "table",
-//         fon: "wak",
-//     }
-// ]
+const url = 'https://656b0275dac3630cf7278ec3.mockapi.io/clouthes/';
+const table = document.querySelector('.two-image');
 
-// let product_div = document.querySelector(".two-img")
+async function getUsers() {
+  const res = await fetch(url);
+  const data = await res.json();
+  console.log(data);
+  renderUsers(data.slice(0, 8));
+}
+getUsers();
 
-// let productPost = product.map((item) => {
-//     return `
-//     <div class="two-img-image">
-//        <h5>${item.price}</h5>
-//        <p>${item.title}</p>
-//        <span>11.990 руб</span>
-//     </div>
-//     `
-// })
-// product_div.innerHTML = productPost.join("")
+function renderUsers(array) {
+  table.innerHTML = '';
+  for (const user of array) {
+    const userContainer = document.createElement('div');
+    userContainer.innerHTML = `
+      <h4>${user.name}</h4>
+      <a href="/img.html">
+      <img width='100%' height="50%" style='padding-left: 10px;' src=${user.avatar} />
+      </a>
+      <br><span>${user.price}</span>
+    `;
 
+    table.appendChild(userContainer);
+  }
+}
 
-// let a = 3;
-// console.log(a);
